@@ -1,0 +1,111 @@
+.body {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+    font-family:"Poppins", sans-serif;
+    background:#2a7bcb;
+}
+
+.win{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 10px;
+    font-size:25px;
+    width:40px;
+    height:40px;
+    background:red;
+    border-radius:0px;
+    margin-left:20px;
+    background:rgba(255,255,255,.2);
+    border-bottom:1px solid #000;
+    cursor:pointer;
+}
+
+.same, .samee, .same1, .same2, .same3{
+    cursor:pointer;
+    padding:15px;
+    font-size:15px;
+    margin-left:20px;
+    width:225px;
+    height:20px;
+    background:rgba(255,255,255,.2);
+    color:#000;
+    /border-bottom:1px solid grey;/
+}
+
+.samee{
+    border-bottom:1px solid #000;
+}
+
+.same1:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.same2:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.same3:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}    
+
+.same:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.samee:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.open{
+    background:;
+    
+    width:0px;
+    overflow:hidden;
+    transition:all .5s ease;
+}
+
+.slep,.sd,.res{
+    cursor:pointer;
+    padding:15px;
+    font-size:15px;
+    margin-left:20px;
+    width:100px;
+    height:20px;
+    background:rgba(255,255,255,.2);
+    color:#000;
+}
+
+.res{
+    border-bottom:2px solid #000;
+}
+
+.slep:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.sd:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.res:hover{
+    background:rgba(255,255,255,.3);
+    color:rgba(255,255,255,1);
+}
+
+.down{
+    width:150px;
+    height:0px;
+    background:;
+    transition:all .5s ease;
+    overflow:hidden;
+}
